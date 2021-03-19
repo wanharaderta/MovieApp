@@ -176,14 +176,6 @@
 			path = Favorites;
 			sourceTree = "<group>";
 		};
-		8372C80126049B9D0044BF97 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				8382F7812600F11800332E31 /* HomePresenter.swift */,
-			);
-			name = Presenter;
-			sourceTree = "<group>";
-		};
 		8372C80226049BAE0044BF97 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +192,14 @@
 				8382F7862600F12600332E31 /* HomeRouter.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		8372C80426049C590044BF97 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8382F7812600F11800332E31 /* HomePresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		837D3B9626019E58002ED26C /* DataSource */ = {
@@ -366,9 +366,9 @@
 		8382F76F2600EFE700332E31 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				8372C80426049C590044BF97 /* Presenter */,
 				8372C80326049BB40044BF97 /* Router */,
 				8372C80226049BAE0044BF97 /* View */,
-				8372C80126049B9D0044BF97 /* Presenter */,
 			);
 			path = Home;
 			sourceTree = "<group>";
