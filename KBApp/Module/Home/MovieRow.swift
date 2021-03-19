@@ -30,12 +30,14 @@ struct MovieRow: View {
             .lineLimit(1)
           Spacer()
         }
-        
-        Text(item.overview)
-          .font(.caption)
-          .lineLimit(2)
-          .padding(.top, 3)
-          .foregroundColor(Color.gray.opacity(1))
+        HStack {
+          Text(item.overview)
+            .font(.caption)
+            .lineLimit(2)
+            .padding(.top, 3)
+            .foregroundColor(Color.gray.opacity(1))
+          Spacer()
+        }
       }.padding(.leading, 10)
     }.padding([.top, .bottom], 5)
   }
