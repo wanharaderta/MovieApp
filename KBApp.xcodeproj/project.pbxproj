@@ -179,6 +179,7 @@
 		8372C80126049B9D0044BF97 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				8382F7812600F11800332E31 /* HomePresenter.swift */,
 			);
 			name = Presenter;
 			sourceTree = "<group>";
@@ -186,6 +187,9 @@
 		8372C80226049BAE0044BF97 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8382F7772600F0E100332E31 /* HomeView.swift */,
+				8382F77C2600F0EE00332E31 /* MovieRow.swift */,
+				837D3BD326025D99002ED26C /* CategoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +197,7 @@
 		8372C80326049BB40044BF97 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				8382F7862600F12600332E31 /* HomeRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -364,9 +369,6 @@
 				8372C80326049BB40044BF97 /* Router */,
 				8372C80226049BAE0044BF97 /* View */,
 				8372C80126049B9D0044BF97 /* Presenter */,
-				8382F7762600F0C000332E31 /* p */,
-				8382F7752600F0B900332E31 /* f */,
-				8382F7722600F07500332E31 /* ff */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -390,16 +392,6 @@
 			path = Favorite;
 			sourceTree = "<group>";
 		};
-		8382F7722600F07500332E31 /* ff */ = {
-			isa = PBXGroup;
-			children = (
-				8382F7772600F0E100332E31 /* HomeView.swift */,
-				8382F77C2600F0EE00332E31 /* MovieRow.swift */,
-				837D3BD326025D99002ED26C /* CategoryView.swift */,
-			);
-			name = ff;
-			sourceTree = "<group>";
-		};
 		8382F7732600F08800332E31 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,22 +408,6 @@
 				8382F72A2600C89000332E31 /* KBApp.xcdatamodeld */,
 			);
 			path = DB;
-			sourceTree = "<group>";
-		};
-		8382F7752600F0B900332E31 /* f */ = {
-			isa = PBXGroup;
-			children = (
-				8382F7862600F12600332E31 /* HomeRouter.swift */,
-			);
-			name = f;
-			sourceTree = "<group>";
-		};
-		8382F7762600F0C000332E31 /* p */ = {
-			isa = PBXGroup;
-			children = (
-				8382F7812600F11800332E31 /* HomePresenter.swift */,
-			);
-			name = p;
 			sourceTree = "<group>";
 		};
 		8382F7A9260101CF00332E31 /* UseCase */ = {
