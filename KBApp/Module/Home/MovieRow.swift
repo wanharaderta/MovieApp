@@ -13,7 +13,7 @@ struct MovieRow: View {
   var item: MovieModel
   var body: some View {
     HStack {
-      WebImage(url: URL(string: item.poster_path))
+      WebImage(url: URL(string: API.baseUrlImage + item.poster_path))
         .resizable()
         .placeholder(Image(systemName: "photo"))
         .indicator(.activity)

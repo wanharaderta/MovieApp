@@ -12,6 +12,8 @@
 		836B100526030B1000BE8BD7 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836B100426030B1000BE8BD7 /* DetailPresenter.swift */; };
 		836B100D26030B6700BE8BD7 /* DetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836B100C26030B6700BE8BD7 /* DetailUseCase.swift */; };
 		836B101226030B7100BE8BD7 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836B101126030B7100BE8BD7 /* DetailInteractor.swift */; };
+		8372C7F226045BA50044BF97 /* FavoritePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372C7F126045BA40044BF97 /* FavoritePresenterTest.swift */; };
+		8372C7F726048A3D0044BF97 /* HomePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372C7F626048A3D0044BF97 /* HomePresenterTest.swift */; };
 		837D3B9926019E76002ED26C /* LocaleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D3B9826019E76002ED26C /* LocaleDataSource.swift */; };
 		837D3BA226019EF4002ED26C /* MovieMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D3BA126019EF4002ED26C /* MovieMapper.swift */; };
 		837D3BC02601E0BF002ED26C /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D3BBF2601E0BE002ED26C /* ActivityIndicator.swift */; };
@@ -72,6 +74,8 @@
 		836B100426030B1000BE8BD7 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
 		836B100C26030B6700BE8BD7 /* DetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUseCase.swift; sourceTree = "<group>"; };
 		836B101126030B7100BE8BD7 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		8372C7F126045BA40044BF97 /* FavoritePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePresenterTest.swift; sourceTree = "<group>"; };
+		8372C7F626048A3D0044BF97 /* HomePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTest.swift; sourceTree = "<group>"; };
 		837D3B9826019E76002ED26C /* LocaleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleDataSource.swift; sourceTree = "<group>"; };
 		837D3BA126019EF4002ED26C /* MovieMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMapper.swift; sourceTree = "<group>"; };
 		837D3BBF2601E0BE002ED26C /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
@@ -156,6 +160,22 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		8372C7FB26048C9B0044BF97 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8372C7F626048A3D0044BF97 /* HomePresenterTest.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8372C7FC26048CA40044BF97 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				8372C7F126045BA40044BF97 /* FavoritePresenterTest.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
 		837D3B9626019E58002ED26C /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +244,8 @@
 		8382F73D2600C89300332E31 /* KBAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				8372C7FC26048CA40044BF97 /* Favorites */,
+				8372C7FB26048C9B0044BF97 /* Home */,
 				8382F73E2600C89300332E31 /* KBAppTests.swift */,
 				8382F7402600C89300332E31 /* Info.plist */,
 			);
@@ -696,6 +718,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8372C7F726048A3D0044BF97 /* HomePresenterTest.swift in Sources */,
+				8372C7F226045BA50044BF97 /* FavoritePresenterTest.swift in Sources */,
 				8382F73F2600C89300332E31 /* KBAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

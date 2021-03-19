@@ -13,6 +13,7 @@ class DetailPresenter: ObservableObject {
   private var cancellables: Set<AnyCancellable> = []
   private let detailUseCase: DetailUseCase
   
+  @Published var movies: [MovieModel] = []
   @Published var movie: MovieModel
   @Published var errorMessage: String = ""
   @Published var isLoading: Bool = false
@@ -52,6 +53,7 @@ class DetailPresenter: ObservableObject {
         }
       }, receiveValue: { value in
         self.movie.favorite = value
+        self.getFavorites()
       })
       .store(in: &cancellables)
   }
@@ -70,6 +72,22 @@ class DetailPresenter: ObservableObject {
         self.movie.favorite = value
       })
       .store(in: &cancellables)
+  }
+  
+  func getFavorites() {
+    isLoading = true
+    detailUseCase.getFavoritesMovies()
+      .receive(on: RunLoop.main)
+      .sink(receiveCompletion: { completion in
+        switch completion {
+        case .failure:
+          self.errorMessage = String(describing: completion)
+        case .finished:
+          self.isLoading = false
+        }
+      }, receiveValue: { movies in
+        self.movies = movies
+      }).store(in: &cancellables)
   }
   
 }

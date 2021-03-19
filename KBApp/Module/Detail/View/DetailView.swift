@@ -26,7 +26,7 @@ struct DetailView: View {
             .frame(width: 24, height: 24)
             .padding(.trailing, 10)
         })
-        Text("Favorites")
+        Text(self.presenter.movie.title)
           .font(.body)
           .foregroundColor(.white)
         Spacer(minLength: 0)
@@ -36,7 +36,7 @@ struct DetailView: View {
         VStack {
           HStack {
             VStack {
-              WebImage(url: URL(string: self.presenter.movie.poster_path))
+              WebImage(url: URL(string: API.baseUrlImage + self.presenter.movie.poster_path))
                 .resizable()
                 .placeholder(Image(systemName: "photo"))
                 .indicator(.activity)
@@ -98,7 +98,7 @@ struct DetailView: View {
           }
           Spacer()
         }
-      }
+      }.padding()
     }
     .onAppear {
       self.presenter.getMovie()

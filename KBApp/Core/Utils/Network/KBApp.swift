@@ -11,6 +11,7 @@ struct API {
   static let baseUrl = "https://api.themoviedb.org/3/movie/"
   static let token = "b6b2e1c77a864e7f168e6675617b0c74"
   static let apiKey = "api_key=\(token)"
+  static let baseUrlImage = "https://image.tmdb.org/t/p/w500/"
 }
 
 protocol Endpoint {

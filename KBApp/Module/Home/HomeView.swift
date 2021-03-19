@@ -78,7 +78,7 @@ struct HomeView: View {
         }.background(Color.blue)
         
         VStack {
-          CategoryView(showingCategoryView: self.$showingCategoryView, presenter: self._presenter)
+          CategoryView(showingCategoryView: self.$showingCategoryView)
             .padding(.bottom, 10)
             .padding(.bottom, edges?.bottom)
             .padding(.top, 10)

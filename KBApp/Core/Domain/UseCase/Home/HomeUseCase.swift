@@ -11,5 +11,4 @@ import Combine
 protocol HomeUseCase {
   
   func getMovies(category: String) -> AnyPublisher<[MovieModel], Error>
-  
 }

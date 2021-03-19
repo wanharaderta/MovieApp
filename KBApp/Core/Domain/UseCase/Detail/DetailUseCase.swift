@@ -13,4 +13,5 @@ protocol DetailUseCase {
   func getMovie() -> AnyPublisher<MovieModel, Error>
   func addFavorite() -> AnyPublisher<Bool, Error>
   func removeFavorite() -> AnyPublisher<Bool, Error>
+  func getFavoritesMovies() -> AnyPublisher<[MovieModel], Error>
 }

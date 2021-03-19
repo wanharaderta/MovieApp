@@ -33,4 +33,8 @@ class DetailInteractor: DetailUseCase {
   func removeFavorite() -> AnyPublisher<Bool, Error> {
     return repository.removeFavorite(from: movie)
   }
+  
+  func getFavoritesMovies() -> AnyPublisher<[MovieModel], Error> {
+    return repository.getFavoriteMovies()
+  }
 }
