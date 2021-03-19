@@ -7,447 +7,79 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "90C4075A-8C9C-4C5D-84C4-AB2996E708DE"
-            shouldBeEnabled = "Yes"
+            uuid = "6CF0FE12-06C9-4E78-B973-7C30862230AA"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Module/Home/HomePresenter.swift"
+            filePath = "KBApp/Module/Home/HomeRouter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "getMovies(category:)"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "makeDetailView(for:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4036785D-487F-4ECD-8052-9CC2F3E26D63"
-            shouldBeEnabled = "Yes"
+            uuid = "71FB73FD-A41E-420B-B316-4C2E0269B350"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Domain/UseCase/Home/HomeUseCase.swift"
+            filePath = "KBApp/Module/Home/HomeRouter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
             endingLineNumber = "13"
-            landmarkName = "HomeUseCase"
-            landmarkType = "5">
+            landmarkName = "makeDetailView(for:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3041BD8D-AD87-4F42-990E-2D4035A236F0"
+            uuid = "73186360-ADF7-46B0-A856-5F3AA53171AF"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Domain/UseCase/Home/HomeInteractor.swift"
+            filePath = "KBApp/Module/Home/HomeRouter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "getMovies(category:)"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "makeDetailView(for:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9404CD2B-1B30-49F5-8F93-E0F7B7DF948A"
+            uuid = "68D084C0-C9DF-42F7-AFD5-24B6F6097121"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            filePath = "KBApp/Module/Home/HomeRouter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "getMovies(category:)"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "makeDetailView(for:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4A57B618-BCB7-410A-83F7-58AB4540901B"
+            uuid = "15127E88-9038-468B-A85D-0D37B96C9187"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "getMovies(category:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A364BEB0-5090-4346-A0C5-1057644DC1A6"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "getMovies(category:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A364BEB0-5090-4346-A0C5-1057644DC1A6 - bcaf7818d003cc8e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "KBApp.RemoteDataSource.getMovies() -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;KBApp.MovieResponse&gt;, Swift.Error&gt;"
-                  moduleName = "KBApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "22">
-               </Location>
-               <Location
-                  uuid = "A364BEB0-5090-4346-A0C5-1057644DC1A6 - 3c803cfb12e95cf8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 ((Swift.Result&lt;Swift.Array&lt;KBApp.MovieResponse&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in KBApp.RemoteDataSource.getMovies() -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;KBApp.MovieResponse&gt;, Swift.Error&gt;"
-                  moduleName = "KBApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "173">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0227A04A-D5F1-48EA-B031-A3548D40CF47"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "getMovies(category:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "13E6616D-9DFB-4C36-88DF-A9367E8904B0"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Module/Home/HomePresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "getMovies(category:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1E2FF6B4-573C-46B8-9F98-3ADFB52C3A0D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Module/Home/HomePresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "getMovies(category:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "46AA7313-ABAC-4ED2-AD36-9A46F51AD34D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Module/Home/HomePresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "getMovies(category:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "379CE562-9A03-4C44-9FF9-73BCB0ED16A4"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Module/Home/HomePresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "getMovies(category:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EFBEC7F2-4BE5-45E4-A473-CD6FD88CAA6E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Module/Home/HomePresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "getMovies(category:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "EFBEC7F2-4BE5-45E4-A473-CD6FD88CAA6E - 47dd8a750a3be5c1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "KBApp.HomePresenter.getMovies(category: Swift.String) -&gt; ()"
-                  moduleName = "KBApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Home/HomePresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "930">
-               </Location>
-               <Location
-                  uuid = "EFBEC7F2-4BE5-45E4-A473-CD6FD88CAA6E - facbef9890dedf8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Array&lt;KBApp.MovieModel&gt;) -&gt; () in KBApp.HomePresenter.getMovies(category: Swift.String) -&gt; ()"
-                  moduleName = "KBApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Home/HomePresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "74">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E34EF869-1414-4B52-86FB-9ABDB51B6B63"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "getMovies(category:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E34EF869-1414-4B52-86FB-9ABDB51B6B63 - 484a0a6691042bd3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "KBApp.MoviesRepositoryImpl.getMovies() -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;KBApp.MovieModel&gt;, Swift.Error&gt;"
-                  moduleName = "KBApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "145">
-               </Location>
-               <Location
-                  uuid = "E34EF869-1414-4B52-86FB-9ABDB51B6B63 - ad86797f867ca962"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;KBApp.MovieResponse&gt;) -&gt; Swift.Array&lt;KBApp.MovieModel&gt; in KBApp.MoviesRepositoryImpl.getMovies() -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;KBApp.MovieModel&gt;, Swift.Error&gt;"
-                  moduleName = "KBApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "30">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E9BA11A2-11D0-4D85-A3DC-332223348422"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "getMovies(category:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CED70AAD-B38E-4295-8FB9-DA80AC7AE4CE"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Domain/Model/Mapper/MovieMapper.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "mapMovieResponseToDomain(input:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8E7416DD-8D5D-4393-A070-813E231F360C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Domain/Model/Mapper/MovieMapper.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "mapMovieResponseToDomain(input:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3A6BEA5C-53D6-48D5-A72F-2BBF11BEA235"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Domain/Model/Mapper/MovieMapper.swift"
+            filePath = "KBApp/Module/Detail/View/DetailView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
             endingLineNumber = "17"
-            landmarkName = "mapMovieResponseToDomain(input:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4CAC55C2-0D98-4E76-BEA7-0C2399EA4A81"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Domain/Model/Mapper/MovieMapper.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "mapMovieResponseToDomain(input:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "05118B3B-B753-4CB1-BA77-9CA5BE42B29C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Domain/Model/Mapper/MovieMapper.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "mapMovieResponseToDomain(input:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "176ED5A7-8962-4A5A-AC9B-7E081BFA82E7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Domain/Model/Mapper/MovieMapper.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "mapMovieResponseToDomain(input:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BD8A0956-5C5D-40C6-A98F-5056C6A3C3D5"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Module/Home/HomePresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "getMovies(category:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "72B919BC-E2B9-4062-AAD2-F0DDE7A9C64E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Module/Home/CategoryView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -455,110 +87,79 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7A5336E0-19A3-48F8-9ABE-D0A0F9F8F61E"
+            uuid = "E8460BDB-6236-4678-B16F-292249780D3D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Module/Home/CategoryView.swift"
+            filePath = "KBApp/Module/Detail/Presenter/DetailPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E00028F3-4FCD-44AB-9B8D-354C88329423"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KBApp/Module/Home/HomePresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "getMovies(category:)"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getMovie()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1D194C04-9D93-4F6A-8FAB-1E5B3F0946F6"
+            uuid = "0F9AA998-E1E6-441D-ABC2-5D79D5B2A60A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
+            filePath = "KBApp/Module/Detail/Presenter/DetailPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "getMovies(category:)"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getMovie()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DB7F2B3C-6433-43A0-9322-E28D2C9FE033"
+            uuid = "3E2BE762-B985-46CE-AFD9-6CDF1A6F06D5"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
+            filePath = "KBApp/Module/Detail/Presenter/DetailPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "getMovies(category:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getMovie()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "DB7F2B3C-6433-43A0-9322-E28D2C9FE033 - cf67f7c872ce5f7b"
+                  uuid = "3E2BE762-B985-46CE-AFD9-6CDF1A6F06D5 - 40d89ed243e91e1a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 ((Swift.Result&lt;Swift.Array&lt;KBApp.MovieResponse&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in KBApp.RemoteDataSource.getMovies(category: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;KBApp.MovieResponse&gt;, Swift.Error&gt;"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in KBApp.DetailPresenter.getMovie() -&gt; ()"
                   moduleName = "KBApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/Presenter/DetailPresenter.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "332">
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "106">
                </Location>
                <Location
-                  uuid = "DB7F2B3C-6433-43A0-9322-E28D2C9FE033 - cf67f7c872ce5f7b"
+                  uuid = "3E2BE762-B985-46CE-AFD9-6CDF1A6F06D5 - 40d89ed243e91e1a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 ((Swift.Result&lt;Swift.Array&lt;KBApp.MovieResponse&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in KBApp.RemoteDataSource.getMovies(category: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;KBApp.MovieResponse&gt;, Swift.Error&gt;"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in KBApp.DetailPresenter.getMovie() -&gt; ()"
                   moduleName = "KBApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/Presenter/DetailPresenter.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "555">
-               </Location>
-               <Location
-                  uuid = "DB7F2B3C-6433-43A0-9322-E28D2C9FE033 - cf67f7c872ce5f7b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 ((Swift.Result&lt;Swift.Array&lt;KBApp.MovieResponse&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in KBApp.RemoteDataSource.getMovies(category: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;KBApp.MovieResponse&gt;, Swift.Error&gt;"
-                  moduleName = "KBApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "781">
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "128">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -566,96 +167,1115 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "77C35DBD-4077-4433-8914-1E83BC944F90"
+            uuid = "735E2C5E-FBED-4C5D-A0E1-B03AB3187A5F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
+            filePath = "KBApp/Module/Detail/Presenter/DetailPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "getMovies(category:)"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getMovie()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8B71A941-89EE-4950-9E78-BB3ED3D0F695"
+            uuid = "089405C0-3066-482B-88A5-09F953E806F2"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
+            filePath = "KBApp/Module/Detail/Presenter/DetailPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
             endingLineNumber = "37"
-            landmarkName = "getMovies(category:)"
+            landmarkName = "getMovie()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "089405C0-3066-482B-88A5-09F953E806F2 - 38dc2163b0436382"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KBApp.DetailPresenter.getMovie() -&gt; ()"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/Presenter/DetailPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "643">
+               </Location>
+               <Location
+                  uuid = "089405C0-3066-482B-88A5-09F953E806F2 - 40d89ed243e91dd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in KBApp.DetailPresenter.getMovie() -&gt; ()"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/Presenter/DetailPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "409">
+               </Location>
+               <Location
+                  uuid = "089405C0-3066-482B-88A5-09F953E806F2 - 4ad1fc8d69e5adb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (KBApp.MovieModel) -&gt; () in KBApp.DetailPresenter.getMovie() -&gt; ()"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/Presenter/DetailPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "52162B18-6D3D-427C-8758-321B041FB704"
+            uuid = "FA4C233F-4DE9-4713-A739-2C30ECD3D904"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
+            filePath = "KBApp/Module/Detail/Presenter/DetailPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "getMovies(category:)"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getMovie()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FD4A3228-4B98-4E2C-9410-6161385FDA1E"
+            uuid = "479A9E5D-BFCA-4B20-8E9F-594991AFCF0D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
+            filePath = "KBApp/Module/Detail/Presenter/DetailPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "getMovies(category:)"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getMovie()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C1A40D04-1479-4B92-845E-B0987DBB95BA"
-            shouldBeEnabled = "Yes"
+            uuid = "630CEA37-F92C-4CED-BB5C-EBA92309CBE0"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
+            filePath = "KBApp/Module/Detail/View/DetailView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "getMovies(category:)"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "DetailView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "630CEA37-F92C-4CED-BB5C-EBA92309CBE0 - 8e5c17cf4f96ae84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of KBApp.DetailView.presenter : KBApp.DetailPresenter"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/View/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "630CEA37-F92C-4CED-BB5C-EBA92309CBE0 - a213e39d83207d5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KBApp.DetailView.presenter.getter : KBApp.DetailPresenter"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/View/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "630CEA37-F92C-4CED-BB5C-EBA92309CBE0 - 876304311e599152"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KBApp.DetailView.presenter.setter : KBApp.DetailPresenter"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/View/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  uuid = "630CEA37-F92C-4CED-BB5C-EBA92309CBE0 - beba8af022493693"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KBApp.DetailView.presenter.modify : KBApp.DetailPresenter"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/View/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "14">
+               </Location>
+               <Location
+                  uuid = "630CEA37-F92C-4CED-BB5C-EBA92309CBE0 - 22f51f0d030cde52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KBApp.DetailView.presenter.modify : KBApp.DetailPresenter with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/View/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "630CEA37-F92C-4CED-BB5C-EBA92309CBE0 - 4eddc6f008d82026"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KBApp.DetailView.$presenter.getter : SwiftUI.ObservedObject&lt;KBApp.DetailPresenter&gt;.Wrapper"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/View/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "93">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BAEE412-3395-4100-9025-540FAB38B19D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Home/HomeRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "makeFavoriteView()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5A41B857-6D4C-4ACE-9A65-91CB11E9F881"
+            uuid = "EEB787E3-9592-47EF-9B99-3F5BD8F8815F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Home/HomeRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "makeFavoriteView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDAB534D-9F7E-4FC8-9A9F-158006596032"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Home/HomeRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "makeFavoriteView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27D0674D-078F-407B-A78A-298DD58B74FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Home/HomeRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "makeFavoriteView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4764FD43-D961-4098-8BD0-56A5350D5F67"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Detail/View/DetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80EB7286-C9AE-4AA3-89E5-6C1A16A75DDF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KBApp/Core/Data/Remote/DataSource/RemoteDataSource.swift"
+            filePath = "KBApp/Core/Data/Local/DataSource/LocaleDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "addFavorite(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14AA7414-B943-4037-AB9E-B845ABE9E34A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Local/DataSource/LocaleDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "addFavorite(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6949D1CB-CFA8-418D-9507-5FB92674E9FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Local/DataSource/LocaleDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "addFavorite(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE9B41BC-B5E4-4528-BC99-D30552D5AEEC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Local/DataSource/LocaleDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "addFavorite(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EE9B41BC-B5E4-4528-BC99-D30552D5AEEC - 9200a1dad3d18c6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KBApp.LocaleDataSource.addFavorite(from: KBApp.MovieEntity) -&gt; Combine.AnyPublisher&lt;Swift.Bool, Swift.Error&gt;"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Local/DataSource/LocaleDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "EE9B41BC-B5E4-4528-BC99-D30552D5AEEC - 9bc4bce5dbd510bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;Swift.Bool, Swift.Error&gt;) -&gt; ()) -&gt; () in KBApp.LocaleDataSource.addFavorite(from: KBApp.MovieEntity) -&gt; Combine.AnyPublisher&lt;Swift.Bool, Swift.Error&gt;"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Local/DataSource/LocaleDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "1659">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C44B428-09E5-4213-8515-56694AACDBA3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Detail/Presenter/DetailPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "addFavorite()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8BDCCF8-BA2D-4A7B-A7B9-105CE6B0F4F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Domain/UseCase/Detail/DetailInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "addFavorite()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E9FBE93-1249-4997-B502-3FB538C99C62"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Domain/UseCase/Detail/DetailInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "addFavorite()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1B8F48C-63FF-4CD4-A2B5-5EC320CA8C6E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "addFavorite(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86F669A4-AD61-4B2C-A755-7B49183E692A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "addFavorite(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE6CE47C-ED89-45B2-B4F0-160CB66C8392"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "addFavorite(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54C62037-9635-4B8F-8876-05D0C12F5A8E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Local/DataSource/LocaleDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "addFavorite(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AC5BABA-D5B7-4A8D-814B-4B717941A39F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Local/DataSource/LocaleDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "addFavorite(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BB798F3-C040-4F24-B6B3-8334F4F0CBD2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Local/DataSource/LocaleDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "addFavorite(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32D87434-D417-4EA6-8809-7E0467427D46"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Local/DataSource/LocaleDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "addFavorite(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72EEF4F3-D6CA-4A88-8156-1F937D2AB83A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Favorite/Presenter/FavoritePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getFavorites()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE6BDFB8-3252-4524-9984-31B46B4B41C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getMovie(by:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E240AD5-C7CD-4E92-86E4-5F5616733AC6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getMovie(by:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4E240AD5-C7CD-4E92-86E4-5F5616733AC6 - 82e2c9483dd981b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (KBApp.MovieEntity) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt; in KBApp.MoviesRepositoryImpl.getMovie(by: Swift.String) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt;"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1439">
+               </Location>
+               <Location
+                  uuid = "4E240AD5-C7CD-4E92-86E4-5F5616733AC6 - 74853c9b22c8e080"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (KBApp.MovieEntity) -&gt; KBApp.MovieModel in closure #1 (KBApp.MovieEntity) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt; in KBApp.MoviesRepositoryImpl.getMovie(by: Swift.String) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt;"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B40CAC87-AFD3-4F19-A081-49717207BAED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getMovie(by:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A53F907F-2959-4430-8C0C-510F2401DEB9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getMovie(by:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A53F907F-2959-4430-8C0C-510F2401DEB9 - 82e2c9483dd98134"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (KBApp.MovieEntity) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt; in KBApp.MoviesRepositoryImpl.getMovie(by: Swift.String) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt;"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1836">
+               </Location>
+               <Location
+                  uuid = "A53F907F-2959-4430-8C0C-510F2401DEB9 - de8c948feab7d9bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (KBApp.MovieResponse) -&gt; KBApp.MovieModel in closure #1 (KBApp.MovieEntity) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt; in KBApp.MoviesRepositoryImpl.getMovie(by: Swift.String) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt;"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6FCD447-0147-4890-A9AF-755CA1A8A6BA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getMovie(by:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "036DD635-AE9B-4D37-A09B-6F17E55225A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getMovie(by:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "036DD635-AE9B-4D37-A09B-6F17E55225A0 - 13882b4882f69654"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KBApp.MoviesRepositoryImpl.getMovie(by: Swift.String) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt;"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "283">
+               </Location>
+               <Location
+                  uuid = "036DD635-AE9B-4D37-A09B-6F17E55225A0 - 82e2c9483dd981ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (KBApp.MovieEntity) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt; in KBApp.MoviesRepositoryImpl.getMovie(by: Swift.String) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt;"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "701">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81F1C007-905F-4F4C-AB81-21E6A3E357A6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getMovie(by:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C908675-1863-4603-97CD-44E86B54B25D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "getMovie(by:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1C908675-1863-4603-97CD-44E86B54B25D - 13882b4882f694e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KBApp.MoviesRepositoryImpl.getMovie(by: Swift.String) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt;"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "599">
+               </Location>
+               <Location
+                  uuid = "1C908675-1863-4603-97CD-44E86B54B25D - 82e2c9483dd98299"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (KBApp.MovieEntity) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt; in KBApp.MoviesRepositoryImpl.getMovie(by: Swift.String) -&gt; Combine.AnyPublisher&lt;KBApp.MovieModel, Swift.Error&gt;"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "2115">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1737545-1C7E-4C39-9BB5-5AA313F07146"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Detail/Presenter/DetailPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getMovie()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE714A31-DABE-4F2C-9757-FB7B2F03D5D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Detail/Presenter/DetailPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getMovie()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76D40869-8B3D-4C17-96DA-1806AE05DB2F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Detail/Presenter/DetailPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getMovie()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "76D40869-8B3D-4C17-96DA-1806AE05DB2F - 38dc2163b043608a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KBApp.DetailPresenter.getMovie() -&gt; ()"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/Presenter/DetailPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "563">
+               </Location>
+               <Location
+                  uuid = "76D40869-8B3D-4C17-96DA-1806AE05DB2F - 40d89ed243e91e1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in KBApp.DetailPresenter.getMovie() -&gt; ()"
+                  moduleName = "KBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanhar/Documents/learning_ios/kb/KBApp/KBApp/Module/Detail/Presenter/DetailPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "106">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D8EC79D-A012-4307-8130-619DB6500365"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getMovie(by:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83FB4463-F435-431B-B182-383CC37CE937"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Repository/MoviesRepositoryImpl.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
             endingLineNumber = "41"
-            landmarkName = "getMovies(category:)"
+            landmarkName = "getMovie(by:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93C7631E-BC2A-4A7B-A841-8F69FDF8FC0D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Domain/Model/Mapper/MovieMapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "mapMovieEntityToDomain(input:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D382D42-E485-416D-91E6-1A12DAFD17F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Domain/Model/Mapper/MovieMapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "mapMovieEntityToDomain(input:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F907A00-CBBD-4945-BF39-FE2A8DD85B34"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Domain/Model/Mapper/MovieMapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "mapMovieEntityToDomain(input:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CA35005-D411-4050-B4CE-AB7B2337652D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Domain/Model/Mapper/MovieMapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "mapMovieEntityToDomain(input:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35919ACB-034C-44D9-8AB4-668F9372AB6E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Favorite/Presenter/FavoritePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "linkBuilder(for:content:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BDF7ABB-8E35-4F77-8AF1-77C5DD29EB69"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Favorite/Router/FavoriteRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "makeDetailView(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1F8B73D-4D3E-4867-848E-C95505017018"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Favorite/Router/FavoriteRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "makeDetailView(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF12D63C-E1AF-4055-9AF5-6EE82065D67C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Local/DataSource/LocaleDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getFavoriteMovies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7AAA8C1-24DD-4DC2-A925-9C695382C421"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Core/Data/Local/DataSource/LocaleDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getFavoriteMovies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E82B8B94-5448-4D5D-AED7-DB5115BD5701"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Favorite/Presenter/FavoritePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "linkBuilder(for:content:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3699B571-1BD6-4C2F-8778-3D10276BFAC5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KBApp/Module/Favorite/Presenter/FavoritePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getFavorites()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

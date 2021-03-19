@@ -11,6 +11,7 @@ import Combine
 protocol RemoteDataSourceProtocol: class {
   
   func getMovies(category: String) -> AnyPublisher<[MovieResponse], Error>
+  func getMovie(by movieId: String) -> AnyPublisher<MovieResponse, Error>
   
 }
 
@@ -45,6 +46,26 @@ extension RemoteDataSource: RemoteDataSourceProtocol {
           do {
             let value = try decoder.decode(MoviesResponse.self, from: data)
             completion(.success(value.movies))
+          } catch {
+            completion(.failure(URLError.invalidResponse))
+          }
+        }
+      }
+      task.resume()
+    }.eraseToAnyPublisher()
+  }
+  
+  func getMovie(by movieId: String) -> AnyPublisher<MovieResponse, Error> {
+    return Future<MovieResponse, Error> { completion in
+      guard let url = URL(string: API.baseUrl + "?\(API.apiKey)") else { return }
+      let task = URLSession.shared.dataTask(with: url) { maybeData, maybeResponse, maybeError in
+        if maybeError != nil {
+          completion(.failure(URLError.addressUnreachable(url)))
+        } else if let data = maybeData, let response = maybeResponse as? HTTPURLResponse, response.statusCode == 200 {
+          let decoder = JSONDecoder()
+          do {
+            let value = try decoder.decode(MovieResponse.self, from: data)
+            completion(.success(value))
           } catch {
             completion(.failure(URLError.invalidResponse))
           }

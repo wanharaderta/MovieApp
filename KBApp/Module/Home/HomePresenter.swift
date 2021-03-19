@@ -11,7 +11,7 @@ import Combine
 class HomePresenter: ObservableObject {
   
   private var cancellables: Set<AnyCancellable> = []
-  //private let router = HomeRouter()
+  private let router = HomeRouter()
   private let homeUsecase: HomeUseCase
   
   @Published var movies: [MovieModel] = []
@@ -39,9 +39,20 @@ class HomePresenter: ObservableObject {
       }).store(in: &cancellables)
   }
   
-//  func linkBuilder(
-//      for article: ArticleModel
-//  ) -> some View {
-//      return router.makeDetailView(for: article)
-//  }
+  func linkBuilder<Content: View>(
+    for movie: MovieModel,
+    @ViewBuilder content: () -> Content
+  ) -> some View {
+    NavigationLink(
+      destination: HomeRouter().makeDetailView(for: movie)
+    ) { content() }
+  }
+  
+  func linkBuilderFavorites<Content: View>(
+    @ViewBuilder content: () -> Content
+  ) -> some View {
+    NavigationLink(
+      destination: HomeRouter().makeFavoriteView()
+    ) { content() }
+  }
 }

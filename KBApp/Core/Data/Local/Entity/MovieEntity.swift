@@ -1,13 +1,13 @@
 //
-//  MovieModel.swift
+//  MovieEntity.swift
 //  KBApp
 //
-//  Created by Wanhar on 16/03/21.
+//  Created by Wanhar on 19/03/21.
 //
 
 import Foundation
 
-struct MovieModel: Equatable, Identifiable {
+struct MovieEntity {
   
   let id: String
   let adult: Bool

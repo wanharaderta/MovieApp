@@ -21,5 +21,15 @@ final class Injection: NSObject {
     let repository = provideRepository()
     return HomeInteractor(repository: repository)
   }
+  
+  func provideFavorite() -> FavoriteUseCase {
+    let repository = provideRepository()
+    return FavoriteInteractor(repository: repository)
+  }
 
+  func provideDetail(movie: MovieModel) -> DetailUseCase {
+    let repository = provideRepository()
+    return DetailInteractor(repository: repository, movie: movie)
+  }
+  
 }

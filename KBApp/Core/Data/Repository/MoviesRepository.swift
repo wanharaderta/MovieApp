@@ -10,8 +10,8 @@ import Combine
 
 protocol MoviesRepository: class {
   func getMovies(category: String) -> AnyPublisher<[MovieModel], Error>
-//  func getFavoriteArticles() -> AnyPublisher<[ArticleModel], Error>
-//  func getArticle(by title: String) -> AnyPublisher<ArticleModel, Error>
-//  func addFavoriteArticle(from article: ArticleModel) -> AnyPublisher<Bool, Error>
-//  func removeFavoriteArticle(from article: ArticleModel) -> AnyPublisher<Bool, Error>
+  func getMovie(by movieId: String) -> AnyPublisher<MovieModel, Error>
+  func getFavoriteMovies() -> AnyPublisher<[MovieModel], Error>
+  func addFavorite(from movie: MovieModel) -> AnyPublisher<Bool, Error>
+  func removeFavorite(from movie: MovieModel) -> AnyPublisher<Bool, Error>
 }

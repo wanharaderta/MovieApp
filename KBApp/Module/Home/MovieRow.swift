@@ -25,6 +25,7 @@ struct MovieRow: View {
         HStack {
           Text(item.title)
             .font(.system(size: 15))
+            .foregroundColor(.black)
             .bold()
             .lineLimit(1)
           Spacer()

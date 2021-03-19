@@ -9,6 +9,8 @@ import Foundation
 
 struct API {
   static let baseUrl = "https://api.themoviedb.org/3/movie/"
+  static let token = "b6b2e1c77a864e7f168e6675617b0c74"
+  static let apiKey = "api_key=\(token)"
 }
 
 protocol Endpoint {
@@ -22,9 +24,9 @@ enum Endpoints {
     case nowplaying
     public var url: String {
       switch self {
-      case .popular: return "\(API.baseUrl)popular?api_key=b6b2e1c77a864e7f168e6675617b0c74"
-      case .toprated: return "\(API.baseUrl)top_rated?api_key=b6b2e1c77a864e7f168e6675617b0c74"
-      case .nowplaying: return "\(API.baseUrl)now_playing?api_key=b6b2e1c77a864e7f168e6675617b0c74"
+      case .popular: return "\(API.baseUrl)popular?\(API.apiKey)"
+      case .toprated: return "\(API.baseUrl)top_rated?\(API.apiKey)"
+      case .nowplaying: return "\(API.baseUrl)now_playing?\(API.apiKey)"
       }
     }
   }
